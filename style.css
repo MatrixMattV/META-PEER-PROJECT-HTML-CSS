@@ -1,0 +1,146 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #edefee;
+    font-size: 2rem;
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+h1 {
+    font-size: 3rem;
+}
+
+h2 {
+    font-size: 2rem;
+    margin-top: 2rem;
+}
+
+header > img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+nav ul {
+    list-style: none;
+    text-align: center;
+    font-size: 1rem;
+    padding-inline-start: 0rem;
+    margin-top: 1rem;
+    margin-left: 1rem;
+    margin-right: 1rem;
+    background: rgb(61, 61, 61);
+    border-radius: 0.5rem;
+}
+
+nav ul li {
+    display: inline-block;
+    margin: 0.25rem;
+}
+
+nav ul a {
+    color: aliceblue;
+    text-decoration: none;
+    transition: .2s;
+}
+
+nav ul a:hover {
+    text-decoration: underline;
+    text-decoration-thickness: 0.1rem;
+    color: rgb(142, 189, 236);
+}
+
+nav ul a:active {
+    color: red;
+}
+
+section {
+    display: flex;
+    gap: 2rem 1rem;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+article {
+    flex: 1;
+    border-radius: 1rem;
+}
+
+.container {
+    background-image: url("pexels-darya-sheydel-85579382-10456299.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 1rem;
+}
+
+.container:hover {
+    cursor: pointer;
+    transform: scale(1.03);
+    transition: all is ease;
+}
+
+.hero {
+    background-color: hsla(0, 2%, 11%, 0.403);
+}
+
+.hero h1 {
+    color: aliceblue;
+}
+
+.hero p {
+    color: aliceblue;
+}
+
+article img {
+    max-width: 100%;
+    margin-top: 2rem;
+    border-radius: 0.6rem;
+}
+
+article li {
+    list-style: none;
+    align-items: center;
+    margin-top: 0.4rem;
+    margin-bottom: 0.4rem;
+}
+
+main article {
+    background-color: #eccbae79;
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+
+article p {
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    text-align: justify;
+}
+
+article:hover {
+    cursor: pointer;
+    transform: scale(1.03);
+    transition: all is ease;
+}
+
+footer {
+    display: flex;
+    margin-top: 3rem;
+    margin-left: 1rem;
+}
+
+footer div {
+    flex: 1;
+}
+
+footer p {
+    align-items: end;
+    margin-right: 2rem;
+}
